@@ -13,12 +13,9 @@ public class Main {
             harryPotter.setYear(2013);
             print(harryPotter);
 
-
-
     }
     private static void print(Book book){
-            System.out.println("Название книги: " + book.getName());
-            System.out.println("Автор книги: " + book.getAuthor().getNameAuthor() + " " + book.getAuthor().getSurnameAuthor());
-            System.out.println("Год издания книги: " + book.getYear());
+        System.out.println(book);
     }
+
 }
